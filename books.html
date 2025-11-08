@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand text-danger" href="#">Haruki Murakami</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="quotes.html">Quotes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="works.html">Short Stories</a>
+                </li>
+            </ul>
+            <button id="theme-toggle" class="btn btn-outline-danger ms-auto">Light theme</button>
+        </div>
+    </div>
+</nav>
+
+  <div class="container mt-5">
+    <h2>Popular Books</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="pictures and gifs/1Q84.jpg" class="card-img-top" alt="Book 1">
+          <div class="card-body">
+            <h5 class="card-title">1Q84</h5>
+            <p class="card-text"> A love story set in a dystopian 1984, the novel follows two lonely characters as they become entwined in a secretive and dangerous cult. Murakami uses 1Q84 to investigate the changing nature of reality and themes about the problems of modernity.</p>
+            <div class="rating" data-book="1">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+          </div>
+          <div id="rating-message-1" class="rating-message mt-3"></div>
+            <a href="pdfs/1Q84.pdf.pdf" download class="btn btn-primary">Download PDF</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="pictures and gifs/kafka on the shore.jpg" class="card-img-top" alt="Book 2">
+          <div class="card-body">
+            <h5 class="card-title">kafka on the shore</h5>
+            <p class="card-text">The book tells the stories of the young Kafka Tamura, a bookish 15-year-old boy who runs away from his Oedipal curse, and Satoru Nakata, an old, disabled man with the uncanny ability to talk to cats. The book incorporates themes of music as a communicative conduit, metaphysics, dreams, fate, and the subconscious.</p>
+            <div class="rating" data-book="2">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+          </div>
+          <div id="rating-message-2" class="rating-message mt-3"></div>
+            <a href="pdfs/Kafka_on_the_Shore.pdf.pdf" download class="btn btn-primary">Download PDF</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="pictures and gifs/norwegian.jpg" class="card-img-top" alt="Book 3">
+          <div class="card-body">
+            <h5 class="card-title">Norwegian Wood</h5>
+            <p class="card-text">a story set in late-1960s Japan, detailing the romantic exploits of Toru Watanabe, in particular his relationship with two women, Naoko and Midori Kobayashi. Each of the three characters has experienced intense loss and grief, and each have their own methods of coping.</p>
+            <div class="rating" data-book="3">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+          </div>
+          <div id="rating-message-3" class="rating-message mt-3"></div>
+            <a href="pdfs/Norwegian_Wood.pdf.pdf" download class="btn btn-primary">Download PDF</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <footer class="mt-5 text-center">
+    <p>Developed by: Kumarbekova Aida, TLeuberdikyzy Samal</p>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lava/stars.js"></script>
+  <script src="lava/tema.js"></script>
+  <script src="lava/navigation.js"></script>
+  <script src="lava/progress.js"></script>
+
+</body>
+</html>

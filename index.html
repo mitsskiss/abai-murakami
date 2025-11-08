@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Navbar (оставляем твою, только добавляем переключатель темы) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-warning" href="index.html">Abai & Murakami</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="quotes.html">Quotes</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <button id="themeToggle" class="btn btn-outline-warning">Abai Mode</button>
+      </div>
+    </div>
+  </nav>
+  <section class="container text-center py-5">
+  <h1 class="fw-bold text-warning">Journey to Enlightenment</h1>
+  <p class="lead text-light mb-4">
+    Explore the wisdom of <span class="text-warning">Abai Kunanbayev</span> and the imagination of <span class="text-info">Haruki Murakami</span>.
+  </p>
+
+  <!-- Progress bar -->
+  <div class="progress mx-auto" style="width: 80%; height: 25px;">
+    <div id="progress-bar" class="progress-bar bg-warning" style="width: 0%;">
+      0%
+    </div>
+  </div>
+
+  <!-- Dynamic Quote -->
+  <div class="mt-5">
+    <blockquote id="daily-quote" class="fs-4 fst-italic text-light"></blockquote>
+  </div>
+
+  <a href="works.html" class="btn btn-outline-warning mt-4">Start Reading Journey</a>
+</section>
+
+
+
+
+  <!-- Hero storytelling -->
+  <header class="hero-section text-center d-flex align-items-center justify-content-center">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="display-4 fw-bold mb-3">Two Voices, One Cultural Bridge</h1>
+      <p class="lead mb-4">
+        Exploring how the timeless wisdom of <span class="text-warning">Abai Kunanbayev</span> 
+        meets the modern introspection of <span class="text-info">Haruki Murakami</span> through digital storytelling.
+      </p>
+      <a href="about.html" class="btn btn-warning me-2">Start the Journey</a>
+      <a href="quotes.html" class="btn btn-outline-light">Explore Quotes</a>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4">About the Project</h2>
+    <p class="text-center fs-5">
+      This media project combines web design, visual storytelling, and gamification to 
+      popularize literary heritage for young audiences. It is part of the <strong>Research Methods and Tools</strong> course 
+      and continues as a <strong>Diploma project</strong> focused on digitalization of cultural education.
+    </p>
+  </section>
+
+  <footer class="bg-dark text-center text-light py-3">
+    <small>© 2025 Abai & Murakami Digital Heritage — Developed by Samal Tleuberdikyzy  </small>
+  </footer>
+
+  <script src="lava/tema.js"></script>
+  <script src="lava/progress.js"></script>
+  
+</body>
